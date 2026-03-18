@@ -1,76 +1,117 @@
-[![Screenshot of the Website](https://raw.githubusercontent.com/mikepierce/conference-website-template/master/screenshot.png)](https://mikepierce.github.io/conference-website-template/)
+# Beyond a Concrete: Workshop on Grounding Abstract Concepts in Multimodal Interaction
 
-An HTML/CSS website template perfect for a small academic or technology conference or seminar.
-The template is quick to deploy and straightforward to customize.
-You can [explore it live here](https://mikepierce.github.io/conference-website-template/),
-and see some folks' use of the template
-[here](https://math.ucr.edu/~mathconn/) 
-and [here](https://data-science-conference.github.io) 
-and [here](https://aquaticdatasciopensci.github.io) 
-and [here](https://comp-expe.github.io) 
-and [here](https://enba-phd-call.github.io)
-and [here](https://strl2022.github.io).
-I'd be happy to see the site you create from my template ☺
+> **ICMI '26** — October 5 or 9, 2026 | Naples, Italy  
+> Workshop Website: [https://beacon2026.github.io/](https://beacon2026.github.io/)
 
-## Installation
+---
 
-If you have access to a server for web hosting, 
-perhaps through your company/university or department, 
-then using this template is as easy as cloning this repository 
-directly into your public HTML directory.
-If not you can pretty easily host a website using this template with [GitHub Pages](https://pages.github.com/).
-See that link for more details, but the basic procedure is this:
+## Overview
 
- 1. Create a GitHub repository named `username.github.io`, 
- where *username* is your username on GitHub.
+This repository contains the website for the **Beyond a Concrete** workshop, held in conjunction with the ACM International Conference on Multimodal Interaction (ICMI 2026) in Naples, Italy.
 
- 2. Click the *Use this template* button above, 
- being sure to give your copy of this repository a more apt name,
- like *awesome-conference*.
+The workshop focuses on computational and interactional mechanisms for grounding abstract concepts beyond concrete sensory inputs — bringing together research on multimodal representation learning, embodied and developmental models, robotics, and hybrid cognitive architectures.
 
- 3. In your copy go to *Settings* and scroll down to *GitHub Pages*.
- Under *Source* choose the master branch of your forked copy.
- Then your copy of the website will be hosted at `username.github.io/awesome-conference`.
+---
 
-## Editing the Template
+## Repository Structure
 
-If you have not edited HTML/CSS to design a webpage before, 
-I encourage you to read 
-[How to Build a Personal Webpage from Scratch](https://rutar.org/writing/how-to-build-a-personal-webpage-from-scratch/)
-by Alex Rutar, particularly the 
-[Crash course in HTML and CSS](https://rutar.org/writing/how-to-build-a-personal-webpage-from-scratch/#crash-course-in-html-and-css) 
-section.
+```
+/
+├── index.html          # Main homepage
+├── registration/       # Registration page
+├── program/            # Workshop programme page
+├── directions/         # Venue directions page
+├── flyer/              # Promotional materials page
+├── assets/
+│   ├── main.css        # Stylesheet
+│   ├── banner.jpg      # Banner image
+│   └── favicon.png     # Favicon
+└── README.md           # This file
+```
 
-## Beautiful Math with MathJax (optional)
+---
 
-It may be helpful to include mathematical notation on this website, especially in the abstracts of talks. 
-This can be done using [MathJax](https://github.com/mathjax/MathJax).
-For an example see the [*programs* page](https://mikepierce.github.io/conference-website-template/program/) of the template site.
-To include math in a page of this website, include the lines
+## Workshop Topics
 
-````HTML
-<script type="text/javascript" async 
-    src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default"> 
-</script>
-````
+Topics of interest include, but are not limited to:
 
-in the `<head>` of the HTML file. Then math can by typeset by using LaTeX's math notation enclosed in `\(...\)` delimiters.
+- Grounding abstract concepts in multimodal interaction
+- Hierarchical and developmental models of abstraction
+- Cross-modal abstraction and alignment
+- Embodied and interactive concept learning
+- Multimodal action and goal representations
+- Affective and contextual abstraction
+- Hybrid cognitive architectures for abstract grounding
+- Evaluation methodologies for abstract concept grounding
+- Multimodal datasets and benchmarks for abstract concepts
+- Applications of abstract grounding in HCI and HRI
 
-## Sitemap (optional)
+---
 
-The file `sitemap.xml` helps search engines understand the structure of your site.
-In this file, each instance of "WEBSITE" should be replaced
-with the actual address where this website is being hosted.
-See the [sitemaps protocol page](https://www.sitemaps.org/protocol.html) for more details.
+## Important Dates
 
-## Alternatives
+> All dates are tentative and will be finalised in accordance with the official ICMI 2026 workshop timeline.
 
-The simplicity of the HTML/CSS source for this template is its strongest feature.
-For something more slick or modern or sophisticated or complicated:
+| Event | Date |
+|---|---|
+| Paper submission deadline | June 21, 2026 |
+| Notification of acceptance | July 15, 2026 |
+| Camera-ready deadline | July 30, 2026 |
+| Workshop date | October 5 or 9, 2026 (TBC) |
 
- - [Hoverboard](https://github.com/gdg-x/hoverboard) is beautiful but requires some tech know-how to setup. 
+---
 
- - You can build something from scratch based on a 
- [GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) 
- or a template from [Pixelarity](https://pixelarity.com).
+## Workshop Format
 
+The workshop is a **half-day event** organised as a mini-conference.
+
+| Time | Event |
+|---|---|
+| 9:00 AM | Welcome |
+| 9:15 AM | Keynote Talk — Speaker 1 |
+| 10:00 AM | Coffee Break |
+| 10:30 AM | Paper Presentations |
+| 11:30 AM | Keynote Talk — Speaker 2 |
+| 12:15 PM | Wrap-up and Farewell |
+
+*Timeslot subject to change based on ICMI 2026 organisation.*
+
+---
+
+## Paper Submission
+
+- **Submission type:** Open call for papers
+- **Review process:** Double-blind peer review
+- **Programme committee:** ~10–15 external reviewers
+- **Reviews per paper:** At least 2 independent reviews
+- **Review criteria:** Technical soundness, relevance, originality, clarity, and potential impact
+
+Subject to the maturity of contributions and workshop outcomes, we will explore a post-workshop special issue or invited extended versions of selected papers.
+
+---
+
+## Organizers
+
+| Name | Affiliation | Email |
+|---|---|---|
+| Rahul Singh Maharjan | University of Manchester, UK | rahulsingh.maharjan@manchester.ac.uk |
+| Haodong Xie | University of Manchester, UK | haodong.xie@manchester.ac.uk |
+| Niyati Rawal | BITS Pilani Goa, India | rawal.niyati@gmail.com |
+| Luca Raggioli | University of Naples Federico II, Italy | luca.raggioli@unina.it |
+| Angelo Cangelosi | University of Manchester, UK | angelo.cangelosi@manchester.ac.uk |
+
+---
+
+## Acknowledgements
+
+This workshop is supported by the ERC Advanced project **eTALK** (UKRI funded).
+
+---
+
+## Website Template
+
+This website was built using the [conference-website-template](https://github.com/mikepierce/conference-website-template) by Mike Pierce.
+
+---
+
+© Beyond a Concrete Workshop Organizers | ICMI '26, Naples, Italy
