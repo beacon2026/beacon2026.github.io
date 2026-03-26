@@ -48,7 +48,7 @@ Topics of interest include, but are not limited to:
 
 ---
 
-## Important Dates
+<!-- ## Important Dates
 
 > All dates are tentative and will be finalised in accordance with the official ICMI 2026 workshop timeline.
 
@@ -59,9 +59,9 @@ Topics of interest include, but are not limited to:
 | Camera-ready deadline | July 30, 2026 |
 | Workshop date | October 5 or 9, 2026 (TBC) |
 
----
+--- -->
 
-## Workshop Format
+<!-- ## Workshop Format
 
 The workshop is a **half-day event** organised as a mini-conference.
 
@@ -72,7 +72,7 @@ The workshop is a **half-day event** organised as a mini-conference.
 | 10:00 AM | Coffee Break |
 | 10:30 AM | Paper Presentations |
 | 11:30 AM | Keynote Talk — Speaker 2 |
-| 12:15 PM | Wrap-up and Farewell |
+| 12:15 PM | Wrap-up and Farewell | -->
 
 *Timeslot subject to change based on ICMI 2026 organisation.*
 
