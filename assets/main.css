@@ -157,3 +157,35 @@ footer{font-size:0.875em; margin-top:12em; text-align:center;}
         max-width: 150px;
     }
 }
+
+.program-overview {
+    margin-bottom: 20px;
+}
+
+.program-schedule {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.program-schedule li {
+    margin-bottom: 6px;
+}
+
+.program-note {
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.important-dates {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.important-dates li {
+    margin-bottom: 6px;
+}
+
+a {
+    word-break: break-word; /* prevents long links from breaking layout on mobile */
+}
